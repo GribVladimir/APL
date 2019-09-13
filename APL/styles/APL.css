@@ -1,0 +1,44 @@
+
+body{
+	background:green;
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	color:white;
+}
+h2{
+	color:white;
+}
+.container{
+	display: flex;
+	direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+	margin: 20px;
+}
+
+.box{
+   	background-color: white;
+   	box-shadow: -20px 20px 0 -17px #eee,
+            20px -20px 0 -17px #eee,
+            20px 20px 0 -20px #592385,
+            0 0 0 2px #592385;
+    margin-bottom: 25px;
+    margin-right:50px;
+    text-align:center;
+    width:250px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.box img{
+	height:auto;
+	width:auto;
+	max-width: 300px;
+	max-height: 300px;
+}
+.box:hover{
+    transform: rotate(2deg);
+}
